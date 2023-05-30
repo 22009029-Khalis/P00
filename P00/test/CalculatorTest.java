@@ -55,27 +55,27 @@ public class CalculatorTest {
 	@Test
 	public void testMultiply(){
 		
-		int a = 1111;
+		int a = 111;
 		int b = 8;
 		
 		Calculator cal = new Calculator();
 		int actual = cal.multiply(a,b);
 		
 		
-		int expected = 8888;
+		int expected = 888;
 		assertEquals(actual, expected);
 	}	
 	@Test
 	public void testDivide() {
 		
-		int a = 9999;
+		int a = 999;
 		int b = 3;
 		
 		
 		Calculator cal = new Calculator();
 		int actual = cal.divide(a,b);
 		
-		int expected = 3333;
+		int expected = 333;
 		assertEquals(actual,expected);
 		
 	
